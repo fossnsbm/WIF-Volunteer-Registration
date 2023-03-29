@@ -2,18 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
   .btn-primary {
     font-weight: 700;
     font-size: 1.2rem;
     padding: 0.5rem 1.25rem;
-    background: #8BFBFF;
+    background: #8bfbff;
     border: 2px solid #000000;
-    box-shadow: 4px 5px 0px #0F0F0F;
+    box-shadow: 4px 5px 0px #0f0f0f;
   }
 
-  .btn-primary:hover{
-    box-shadow: 7px 8px 0px #0F0F0F;
+  .btn-primary:hover {
+    box-shadow: 7px 8px 0px #0f0f0f;
   }
 }

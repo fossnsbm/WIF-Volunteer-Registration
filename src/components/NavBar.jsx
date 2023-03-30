@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <>
-      <div className="text-black flex justify-between px-10 py-5">
+    <nav>
+      <div className="text-black sticky top-0 flex justify-between px-10 py-5">
         <div className="text-left font-bold text-2xl items-end">
+          <Link to={'/'}>
           Home
+          </Link>
         </div>
         <div className="text-right font-normal flex text-lg items-end">
           <div className="p-0">
@@ -16,7 +19,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-    </>
+    </nav>
   )
 }
 

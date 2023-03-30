@@ -5,7 +5,7 @@ function Footer() {
     <>
       <>
       <footer className="w-full bottom-0 md:flex md:flex-col">
-        <div className="bg-[#26B2B7] flex flex-col justify-center md:flex-row md:justify-between text-white px-10 py-2 font-openSans text-[11px] ">
+        <div className="bg-[#26B2B7] flex flex-col justify-center md:flex-row md:justify-between text-white px-10 md:px-52 py-2 font-openSans text-[11px] ">
           <div className="text-center md:text-left lg:text-left">
             © 2023 FOSS COMMUNITY OF NSBM
           </div>

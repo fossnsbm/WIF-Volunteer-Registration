@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <nav>
-      <div className="text-black sticky top-0 flex justify-between px-10 py-5">
+      <div className="text-black sticky top-0 flex justify-between px-10 md:px-52 py-5">
         <div className="text-left font-bold text-2xl items-end">
           <Link to={'/'}>
           Home

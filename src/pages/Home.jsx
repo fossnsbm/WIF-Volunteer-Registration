@@ -1,7 +1,11 @@
 import React from "react";
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
+    <>
+    <NavBar/>
     <seciton>
       <div className="pl-10 pt-10 lg:flex lg:flex:row">
         
@@ -51,6 +55,8 @@ function Home() {
         </div>
       </div>
     </seciton>
+    <Footer/>
+    </>
   );
 }
 

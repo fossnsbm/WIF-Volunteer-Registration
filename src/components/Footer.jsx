@@ -2,10 +2,20 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-        <h1>Footer</h1>
-        //Look the button style in the index.css file. The style is fixed and it's globally applied.
-    </div>
+    <>
+      <>
+      <footer className="w-full bottom-0 h-12 md:flex md:flex-col">
+        <div className="bg-[#26B2B7] text-white px-10 py-2 font-openSans text-[11px] items-end min-h-screen">
+          <div className="text-center md:text-left lg:text-left">
+            © 2023 FOSS COMMUNITY OF NSBM
+          </div>
+          <div className="text-center md:text-right lg:text-right">
+            &lt;/&gt; WITH 🤍 BY the FOSS COMMUNITY OF NSBM
+          </div>
+        </div>
+      </footer>
+    </>
+    </>
   )
 }
 

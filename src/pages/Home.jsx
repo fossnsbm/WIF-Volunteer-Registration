@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="relative">
+    <div className="min-h-screen flex flex-col">
       <seciton>
         <NavBar />
         <div className="pl-10 lg:flex lg:flex:row">
@@ -62,7 +62,10 @@ function Home() {
           </div>
         </div>
       </seciton>
+      <div className="mt-auto">
       <Footer />
+
+      </div>
     </div>
   );
 }

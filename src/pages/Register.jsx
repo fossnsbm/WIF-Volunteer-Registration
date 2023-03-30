@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import FormTopic from "../components/FormTopic";
 
 function Register() {
   const handleSubmit = (e) => {
@@ -31,8 +32,10 @@ function Register() {
   };
 
   return (
+    <>
     <div className="min-h-screen flex flex-col">
       <NavBar />
+      <FormTopic/>
       <div className="relative h-auto">
         <div className="flex flex-col">
           <div className="my-8 w-full flex justify-center">
@@ -192,6 +195,7 @@ function Register() {
         <Footer />
       </div>
     </div>
+    </>
   );
 }
 

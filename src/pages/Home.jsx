@@ -18,13 +18,13 @@ function Home() {
               </h1>
               <div className="md:w-[75%]">
                 <p className="text-center md:text-xl md:text-left lg:text-left">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et
-                  massa mi. Aliquam in hendrerit urna. Pellentesque sit amet
-                  sapien.Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit
-                  amet sapien.Lorem ipsum dolor sit amet consectetur adipiscing
-                  elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque
-                  sit amet sapien.
+                <span className="italic">"Find something you’re passionate about and keep tremendously interested in it." 
+                – Julia Child</span>
+                  <br/><br/>
+                Let your passion for technology shine with Women in FOSS NSBM. Join our dynamic and inclusive 
+                community to connect with other like-minded women, gain mentorship and networking opportunities, 
+                and promote gender diversity in the tech industry. We're ready to join hands with you and make 
+                this your most precious moment. Join Women in FOSS NSBM now and let's grow together!
                 </p>
               </div>
               <div>

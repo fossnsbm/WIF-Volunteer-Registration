@@ -44,7 +44,7 @@ function Register() {
               onSubmit={handleSubmit}
             >
               <div className="flex flex-col">
-                <h3 className={style.formHeading}>Name*</h3>
+                <h3 className={style.formHeading}>Full Name*</h3>
                 <input
                   required
                   type="text"
@@ -103,7 +103,7 @@ function Register() {
                 <div>
                   <h3 className={style.formHeading}>Skils*</h3>
                   <h2 className="text-base font-medium">
-                    Select all the areas that you want to do
+                  Select all the areas you are good at and would like to progress
                   </h2>
                 </div>
 

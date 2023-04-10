@@ -28,12 +28,12 @@ function Home() {
                 </p>
               </div>
               <div>
-                <Link to={"/register"}>
+                <Link to={"/"}>
                   <button
                     onClick={() => {
                       window.scrollTo(0, 0);
                     }}
-                    className="btn-primary mt-5"
+                    className="btn-primary mt-5 cursor-not-allowed"
                   >
                     Become a Volunteer
                   </button>
